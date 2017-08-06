@@ -87,9 +87,9 @@ class ControlerComponent extends React.Component {
                            onChange={this.searchQuery}
                            value={this.state.search}/>
                 </form>
-                {/*<AppItems items={this.state.items}*/}
-                          {/*search={this.state.search}*/}
-                          {/*deleteItem={this.deleteItem}/>*/}
+                <AppItems items={this.state.items}
+                          search={this.state.search}
+                          deleteItem={this.deleteItem}/>
                 <button className="clear" onClick={this.clear}>Clear the List</button>
                 <button className="reset" onClick={this.reset}>Reset the List</button>
             </div>
